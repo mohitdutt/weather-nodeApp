@@ -4,15 +4,18 @@
     "description": "",
     "main": "app.js",
     "scripts": {
-        "test": "nodemon src/app.js"
+        "test": "nodemon src/app.js",
+        "start": "nodemon src/app.js -e js,hbs"
     },
     "author": "mohit dutt",
     "license": "ISC",
     "dependencies": {
         "express": "^4.17.1",
         "hbs": "^4.1.1",
-        "nodemon": "^2.0.3",
         "path": "^0.12.7",
         "requests": "^0.3.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.3"
     }
 }
