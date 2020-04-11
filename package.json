@@ -1,0 +1,18 @@
+{
+    "name": "web-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "nodemon src/app.js"
+    },
+    "author": "mohit dutt",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "hbs": "^4.1.1",
+        "nodemon": "^2.0.3",
+        "path": "^0.12.7",
+        "requests": "^0.3.0"
+    }
+}
